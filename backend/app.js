@@ -1,5 +1,5 @@
-const actors = require('./routes/actors')
 const express = require('express')
+const actors = require('./routes/actors')
 const app = express()
 
 const PORT = 5555

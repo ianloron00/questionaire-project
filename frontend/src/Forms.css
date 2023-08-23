@@ -1,15 +1,36 @@
 .form {
     display: grid;
-    background-color: azure;
     justify-items: center;
+    font-family: sans-serif;
 }
 
 .textarea {
-    margin: 20px;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
     background-color: white;
+    margin: 20px;
     padding: 10px;
+}
+
+.select {
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+.submit {
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: limegreen;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
 }

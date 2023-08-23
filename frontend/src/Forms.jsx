@@ -3,7 +3,7 @@ import './Forms.css'
 function Forms() {
     return (
         <form className="form">
-            <select>
+            <select className="select">
                 <option value="undefined">escolha um...</option>
                 <option value="frontend">Front-end</option>
                 <option value="backend">Back-end</option>
@@ -19,7 +19,7 @@ function Forms() {
                 cols="75"
                 className="textarea">
             </textarea>
-            <input type="submit" value="Submeter" />
+            <input type="submit" value="Submeter" className="submit"/>
         </form>
     )
 }

@@ -4,8 +4,8 @@
   "description": "learning how to communicate the backend with mysql DB",
   "main": "index.js",
   "scripts": {
-    "start": "node db.js",
-    "dev": "nodemon db.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

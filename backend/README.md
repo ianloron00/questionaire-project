@@ -15,4 +15,7 @@ During development, I learned how to create MySQL databases throught .sql files 
 For learning purposes, I installed a DB called 'Sakila' [https://dev.mysql.com/doc/sakila/en/sakila-installation.html]. Then, I extracted the files and ran:
 - mysql -u root -p
 - SOURCE <path to .sql files>/<file>.sql
+... and to test:
+- USE <database>
+- SHOW FULL TABLES;
 Reference: [https://community.revelo.com.br/realizando-un-crud-no-mysql-com-o-node-js/]
